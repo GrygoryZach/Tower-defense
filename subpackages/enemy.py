@@ -78,6 +78,7 @@ class Enemy(sprite.Sprite):
             self.healthbar.rect.center = self.rect.center
         else:
             self.in_rotation = False
+            # self.angle = (self.angle + self.direction * 2) % 360
             self.image = transform.rotate(self.original_image, -self.angle - 90 * self.direction)
             self.rotation_angle = 0
 
@@ -142,6 +143,7 @@ class Enemy(sprite.Sprite):
 
             self.rect.center = self.pos
             self.healthbar.rect.center = (self.rect.centerx, self.rect.centery)
+        print(self.angle)
         # self.get_damage(1)
 
     def get_damage(self, damage):

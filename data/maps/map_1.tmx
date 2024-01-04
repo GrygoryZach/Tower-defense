@@ -11,7 +11,7 @@
  </layer>
  <objectgroup id="3" name="Object Layer 1" visible="0">
   <object id="4" x="-19" y="449">
-   <polyline points="0,0 211,-1 211,-257 467,-259 467,190 722,191 723,-1 1000,-1"/>
+   <polyline points="0,0 211,0 211,-257 467,-257 467,190 722,190 722,-1 1000,-1"/>
   </object>
  </objectgroup>
 </map>
